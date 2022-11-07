@@ -1,0 +1,75 @@
+<!doctype>
+<html>
+          <head>
+                   <title>  </title>
+
+           <style>
+                    .h1
+                        {
+                           color:green;
+                           text-align:center;
+                            font-size:40px;
+                            }
+                    .p1
+                        {
+                          color:red;
+                          text-align:justify;
+                          font-family:monospace;
+                          font-size:20px;
+                             }
+                           .nav
+                               {
+                                 background-color:pink;
+                                 height:70px;
+                                  }
+
+                           a
+                            {
+                             text-decoration:none;
+                             font-size:30px;
+                             color:red;
+                             letter-spacing:10px;
+                             word-spacing:15px;
+                             text-transform:uppercase;
+                             }
+
+
+
+
+
+
+                 
+                </style>
+          </head>
+
+<body>
+       <div class="nav" >
+                        <nav>
+                             <a href=""> home </a>  
+                            <a href=""> service </a>      
+                            <a href=""> about us </a>  
+                             <a href=""> contact us </a>  
+                           
+                           </nav></div>
+
+
+
+
+
+       <img src="">
+
+
+
+       <h1 class="h1">THIS IS CSS EXAMPLE</h1>
+
+      <p class="p1" >What is a paragraph and example?
+A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic.
+Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs.</p>
+
+
+  <p style="text-indent:60px; color:blue; font-family:jokerman; font-size:30px; " >What is a paragraph and example?
+A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic.
+Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs.</p>
+         
+</body>
+</html>
