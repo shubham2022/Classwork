@@ -1,0 +1,52 @@
+.cointainer{
+    height: auto;
+    width:600px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    columns: 10px;
+    row-gap:10px;
+    margin: auto;
+    padding:10px;
+  
+
+}
+.item{
+    height: 100px;
+    background-color: rgb(209,96,115);
+    color:white;
+    font-size: 22px;
+
+}
+.item1{
+    background-color: transparent;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+   
+  /*  margin: auto;
+    padding: 20px; */
+
+}
+input[type="text"]{
+    padding: 20px;
+    width:90%;
+    border-radius: 10px;
+    
+
+   
+}
+button{
+    cursor: pointer;
+    transition: 1s all;
+
+
+
+
+
+}
+button:hover{
+    background-color: #FFAD00;
+}
+

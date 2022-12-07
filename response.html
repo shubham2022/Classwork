@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .none{
+            height: 300px;
+            font-size: 40px;
+            background-color: aqua;
+            text-align: center;
+            text-transform: capitalize;
+            display: none;
+
+        }
+        @media(max-width:320px)
+        {
+            #it1{
+                display: block;
+                background-color: black;
+                color: wheat;
+                font-size: 99px;
+            }
+        }
+        @media(min-width:321px) and (max-width:768px)
+        {
+            #it2{
+                display: block;
+                background-color: darkorchid;
+                color: wheat;
+                font-size: 99px;
+            }
+        }
+        @media (min-width:769px) and (max-width:1024px)
+        {
+            #it3{
+                display: block;
+                background-color: rgb(0, 0, 255);
+                color: wheat;
+                font-size: 199px;
+            }
+        }
+        @media (min-width:1025px) and (max-width:1200px)
+        {
+            #it4{
+                display: block;
+                background-color: red;
+                color: wheat;
+                font-size: 199px;
+            }
+        }
+        @media (min-width:1201px) and (max-width:1400px)
+        {
+            #it5{
+                display: block;
+                background-color: yellowgreen;
+                color: wheat;
+                font-size: 199px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="none" id="it1" >mobile</div>
+    <div class="none" id="it2">tablet</div>
+    <div class="none" id="it3"> Laptop </div>
+    <div class="none" id="it4" >computer</div>
+    <div class="none" id="it5" >projector</div>
+
+</body>
+</html>
